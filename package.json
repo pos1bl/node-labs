@@ -18,10 +18,17 @@
   },
   "homepage": "https://github.com/pos1bl/node-labs#readme",
   "devDependencies": {
+    "@types/convict": "^6.1.1",
+    "@types/express": "^4.17.17",
+    "@types/http-errors": "^2.0.1",
     "@types/node": "^20.2.1"
   },
   "dependencies": {
+    "@types/morgan": "^1.9.4",
+    "convict": "^6.2.4",
+    "express": "^4.18.2",
     "is-admin": "^4.0.0",
+    "morgan": "^1.10.0",
     "systeminformation": "^5.17.12"
   }
 }
