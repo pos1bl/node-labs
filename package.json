@@ -1,0 +1,30 @@
+{
+  "name": "labs",
+  "version": "1.0.0",
+  "type": "module",
+  "target": "ES6",
+  "module": "ESNext",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pos1bl/node-labs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pos1bl/node-labs/issues"
+  },
+  "homepage": "https://github.com/pos1bl/node-labs#readme",
+  "devDependencies": {
+    "@types/node": "^20.2.1"
+  },
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "is-admin": "^4.0.0",
+    "node-fetch": "^3.3.1",
+    "systeminformation": "^5.17.12"
+  }
+}
