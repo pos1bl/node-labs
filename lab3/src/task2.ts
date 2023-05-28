@@ -3,8 +3,7 @@ const arrayChangeDelete = (arr: Array<unknown>, callback: Function): Array<unkno
 
   for (let i = 0; i < arr.length; i++) {
     if (callback(arr[i])) {
-      result.push(arr[i]);
-      arr.splice(i, 1);
+      result.push(...arr.splice(i, 1));
     }
   }
 
