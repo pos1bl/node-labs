@@ -6,6 +6,8 @@
     "moduleResolution": "node",
     "outDir": "out",
     "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
   },
   "ts-node": {
     "esm": true,
