@@ -1,0 +1,19 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5433,
+  "username": "Vlad",
+  "password": "1111",
+  "database": "database",
+  "synchronize": true,
+  "logging": true,
+  "entities": [
+    "lab6/src/entities/*.ts"
+  ],
+  "migrations": [
+    "lab6/src/migrations/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "src/migrations"
+  }
+}
