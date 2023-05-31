@@ -8,6 +8,8 @@
     "sourceMap": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true
   },
   "ts-node": {
     "esm": true,

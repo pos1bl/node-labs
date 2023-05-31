@@ -9,7 +9,7 @@ export default class Database {
   private pool: pkg.Pool;
 
   constructor() {
-    const dbPort = parseInt(process.env.DB_PORT || '5432', 10);
+    const dbPort = parseInt(process.env.DB_PORT || '5433', 10);
 
     this.pool = new Pool({
       user: process.env.DB_USER,
